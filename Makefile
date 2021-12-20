@@ -1,2 +1,4 @@
+.PHONY: test
+
 test:
-	yarn jest
+	yarn jest --collect-coverage
